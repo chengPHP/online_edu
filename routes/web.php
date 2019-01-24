@@ -33,6 +33,10 @@ Route::group(['prefix' => 'admin','namespace' => 'Admin'],function ($router)
 Route::group(['prefix' => 'admin','namespace' => 'Admin'],function ($router)
 {
     $router->get('index', 'AdminController@index');
-    //用户管理
+    //后台用户管理
     Route::resource('manager','ManagerController');
+    //角色管理
+    Route::resource('role','RoleController');
+    //权限管理
+    Route::resource('permission','PermissionController');
 });
