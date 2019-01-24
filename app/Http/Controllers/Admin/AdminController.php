@@ -5,6 +5,9 @@ namespace App\Http\Controllers\Admin;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
+use Spatie\Permission\Models\Role;
+use Spatie\Permission\Models\Permission;
+
 class AdminController extends Controller
 {
     /**
@@ -19,7 +22,11 @@ class AdminController extends Controller
     //
     public function index()
     {
-//        dd('用户名：'.auth('admin')->user()->name);
+//        $role = Role::create(['name' => 'writer']);
+//        $permission = Permission::create(['name' => 'edit articles']);
+//        dd("sssss");
+//        auth('admin')->user()->assignRole('writer');
+//        dd(auth('admin')->user()->hasRole('writer'));
         return view('admin.index');
     }
 }
