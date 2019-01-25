@@ -40,13 +40,7 @@
                 <input id="display_name" type="text" name="display_name" value="" class="form-control">
             </div>
         </div>
-        <div class="hr-line-dashed"></div>
-        <div class="form-group">
-            <label for="email" class="col-sm-2 control-label">description</label>
-            <div class="col-sm-10">
-                <input id="description" type="text" name="description" value="" class="form-control">
-            </div>
-        </div>
+
         <div class="hr-line-dashed"></div>
         <div class="form-group">
             <label class="col-sm-2 control-label">状态</label>

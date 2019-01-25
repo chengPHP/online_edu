@@ -30,13 +30,6 @@
         </div>
         <div class="hr-line-dashed"></div>
         <div class="form-group">
-            <label for="phone" class="col-sm-2 control-label">description</label>
-            <div class="col-sm-10">
-                <input id="description" type="text" name="description" value="{{$info->description}}" class="form-control">
-            </div>
-        </div>
-        <div class="hr-line-dashed"></div>
-        <div class="form-group">
             <label class="col-sm-2 control-label">状态</label>
             <div class="col-sm-10">
                 <div class="radio radio-info radio-inline">
